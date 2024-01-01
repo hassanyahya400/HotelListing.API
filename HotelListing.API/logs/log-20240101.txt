@@ -15,3 +15,84 @@ CREATE TABLE "Countries" (
     "ShortName" nvarchar(max) NULL,
     CONSTRAINT "PK_Countries" PRIMARY KEY ("Id")
 );
+2024-01-01 22:20:41.461 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 22:20:41.480 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 22:20:41.481 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 22:20:41.482 +01:00 [INF] Hosting environment: Development
+2024-01-01 22:20:41.482 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 22:21:00.636 +01:00 [INF] HTTP GET /api/Countries responded 200 in 118.5328 ms
+2024-01-01 22:22:10.457 +01:00 [INF] HTTP POST /api/Countries responded 201 in 706.1192 ms
+2024-01-01 22:57:19.137 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 22:57:19.156 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 22:57:19.157 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 22:57:19.157 +01:00 [INF] Hosting environment: Development
+2024-01-01 22:57:19.157 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 22:58:12.840 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 22:58:12.863 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 22:58:12.864 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 22:58:12.864 +01:00 [INF] Hosting environment: Development
+2024-01-01 22:58:12.864 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 22:59:09.503 +01:00 [INF] HTTP GET /api/Countries responded 200 in 734.0951 ms
+2024-01-01 23:00:03.427 +01:00 [INF] HTTP GET /api/Countries/56 responded 404 in 95.2985 ms
+2024-01-01 23:00:13.176 +01:00 [INF] HTTP GET /api/Countries/444 responded 200 in 61.5491 ms
+2024-01-01 23:00:44.433 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 23:00:44.454 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 23:00:44.455 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 23:00:44.455 +01:00 [INF] Hosting environment: Development
+2024-01-01 23:00:44.455 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 23:00:58.454 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 23:00:58.473 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 23:00:58.474 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 23:00:58.474 +01:00 [INF] Hosting environment: Development
+2024-01-01 23:00:58.474 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 23:01:00.407 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-01 23:01:50.136 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-01 23:01:52.576 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-01 23:01:59.734 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 23:01:59.754 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 23:01:59.755 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 23:01:59.755 +01:00 [INF] Hosting environment: Development
+2024-01-01 23:01:59.755 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 23:25:45.361 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 23:25:45.380 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 23:25:45.381 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 23:25:45.381 +01:00 [INF] Hosting environment: Development
+2024-01-01 23:25:45.381 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 23:26:20.703 +01:00 [INF] HTTP PUT /api/Countries/4 responded 400 in 147.7213 ms
+2024-01-01 23:26:34.453 +01:00 [INF] HTTP PUT /api/Countries/4 responded 400 in 13.0380 ms
+2024-01-01 23:26:47.268 +01:00 [INF] HTTP PUT /api/Countries/4 responded 400 in 17.4268 ms
+2024-01-01 23:27:02.434 +01:00 [INF] HTTP GET /api/Countries responded 200 in 632.4381 ms
+2024-01-01 23:27:52.511 +01:00 [INF] HTTP PUT /api/Countries/444 responded 204 in 116.3070 ms
+2024-01-01 23:28:10.299 +01:00 [INF] HTTP GET /api/Countries responded 200 in 54.8367 ms
+2024-01-01 23:38:45.114 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 23:38:45.137 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 23:38:45.138 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 23:38:45.139 +01:00 [INF] Hosting environment: Development
+2024-01-01 23:38:45.139 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 23:39:03.759 +01:00 [INF] HTTP DELETE /api/Countries/445 responded 204 in 841.4557 ms
+2024-01-01 23:39:07.008 +01:00 [INF] HTTP DELETE /api/Countries/445 responded 404 in 64.2870 ms
+2024-01-01 23:39:44.940 +01:00 [INF] HTTP DELETE /api/Countries/445 responded 404 in 22.8260 ms
