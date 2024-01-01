@@ -3,3 +3,15 @@
 2024-01-01 15:35:04.710 +01:00 [INF] Application started. Press Ctrl+C to shut down.
 2024-01-01 15:35:04.710 +01:00 [INF] Hosting environment: Development
 2024-01-01 15:35:04.710 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 16:22:06.182 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-01 16:22:06.201 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-01 16:22:06.202 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 16:22:06.202 +01:00 [INF] Hosting environment: Development
+2024-01-01 16:22:06.202 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-01 18:00:44.985 +01:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Countries" (
+    "Id" int NOT NULL,
+    "Name" nvarchar(max) NULL,
+    "ShortName" nvarchar(max) NULL,
+    CONSTRAINT "PK_Countries" PRIMARY KEY ("Id")
+);
