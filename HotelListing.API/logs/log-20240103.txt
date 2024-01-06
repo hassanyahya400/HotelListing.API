@@ -1,0 +1,18 @@
+2024-01-03 23:03:35.881 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-03 23:03:35.893 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-03 23:03:35.894 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 23:03:35.894 +01:00 [INF] Hosting environment: Development
+2024-01-03 23:03:35.894 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-03 23:04:29.611 +01:00 [INF] HTTP POST /api/Countries responded 201 in 596.7537 ms
+2024-01-03 23:05:17.545 +01:00 [INF] HTTP POST /api/Countries responded 201 in 62.1457 ms
+2024-01-03 23:05:41.882 +01:00 [INF] HTTP POST /api/Countries responded 201 in 41.6612 ms
+2024-01-03 23:05:53.020 +01:00 [INF] HTTP POST /api/Countries responded 201 in 28.4157 ms
+2024-01-03 23:06:10.963 +01:00 [INF] HTTP DELETE /api/Countries/449 responded 204 in 163.8894 ms
+2024-01-03 23:06:14.115 +01:00 [INF] HTTP DELETE /api/Countries/447 responded 204 in 11.1640 ms
+2024-01-03 23:06:18.848 +01:00 [INF] HTTP DELETE /api/Countries/447 responded 404 in 12.4213 ms
+2024-01-03 23:06:35.080 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-03 23:06:35.095 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-03 23:06:35.097 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 23:06:35.097 +01:00 [INF] Hosting environment: Development
+2024-01-03 23:06:35.097 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-03 23:07:02.966 +01:00 [INF] HTTP POST /api/Countries responded 400 in 112.7897 ms
