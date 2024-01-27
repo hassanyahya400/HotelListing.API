@@ -1,0 +1,20 @@
+2024-01-25 22:14:40.358 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-25 22:14:40.418 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-25 22:14:40.419 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-25 22:14:40.419 +01:00 [INF] Hosting environment: Development
+2024-01-25 22:14:40.419 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-25 22:16:10.859 +01:00 [INF] HTTP GET /api/Countries responded 200 in 1159.1074 ms
+2024-01-25 22:18:56.174 +01:00 [INF] HTTP GET /countries responded 404 in 17.5366 ms
+2024-01-25 22:19:08.302 +01:00 [INF] HTTP GET /countries responded 404 in 33.5141 ms
+2024-01-25 22:19:21.912 +01:00 [INF] HTTP GET /api/countries responded 200 in 160.7264 ms
+2024-01-25 22:21:17.534 +01:00 [INF] HTTP POST /api/Countries responded 401 in 29.2313 ms
+2024-01-25 22:22:03.955 +01:00 [INF] HTTP POST /api/Hotels responded 201 in 348.6509 ms
+2024-01-25 22:22:08.820 +01:00 [INF] HTTP GET /api/countries responded 200 in 13.8294 ms
+2024-01-25 22:22:11.148 +01:00 [INF] HTTP GET /api/countries responded 200 in 11.9019 ms
+2024-01-25 22:22:13.246 +01:00 [INF] HTTP GET /api/countries responded 200 in 25.0558 ms
+2024-01-25 22:22:22.025 +01:00 [INF] HTTP GET /api/countries responded 200 in 8.5661 ms
+2024-01-25 22:22:29.839 +01:00 [INF] HTTP GET /api/hotels responded 200 in 36.4775 ms
+2024-01-25 22:22:36.304 +01:00 [INF] HTTP GET /api/hotels responded 200 in 14.8636 ms
+2024-01-25 22:23:11.650 +01:00 [INF] HTTP POST /api/Hotels responded 201 in 28.8602 ms
+2024-01-25 22:23:15.426 +01:00 [INF] HTTP GET /api/hotels responded 200 in 11.6888 ms
+2024-01-25 22:23:27.819 +01:00 [INF] HTTP GET /api/hotels responded 200 in 11.2995 ms

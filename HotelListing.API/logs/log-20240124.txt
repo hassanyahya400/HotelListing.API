@@ -1,0 +1,64 @@
+2024-01-24 21:54:56.332 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-24 21:54:56.345 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-24 21:54:56.346 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 21:54:56.346 +01:00 [INF] Hosting environment: Development
+2024-01-24 21:54:56.346 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-24 21:54:59.756 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.AspNetCore.Mvc.Versioning.ApiVersionFormatProvider.Format(String format, Object arg, IFormatProvider formatProvider)
+   at Microsoft.AspNetCore.Mvc.ApiVersion.ToString(String format, IFormatProvider formatProvider)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.VersionedApiDescriptionProvider.OnProvidersExecuted(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-24 21:55:09.840 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.AspNetCore.Mvc.Versioning.ApiVersionFormatProvider.Format(String format, Object arg, IFormatProvider formatProvider)
+   at Microsoft.AspNetCore.Mvc.ApiVersion.ToString(String format, IFormatProvider formatProvider)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.VersionedApiDescriptionProvider.OnProvidersExecuted(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-24 21:57:07.519 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-24 21:57:07.533 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-24 21:57:07.533 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 21:57:07.533 +01:00 [INF] Hosting environment: Development
+2024-01-24 21:57:07.533 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-24 21:57:39.240 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 66.0027 ms
+2024-01-24 21:58:27.258 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 34.2327 ms
+2024-01-24 21:58:27.399 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 64.4785 ms
+2024-01-24 21:58:39.650 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 0.4643 ms
+2024-01-24 21:58:39.687 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 13.1812 ms
+2024-01-24 21:59:14.350 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 0.2244 ms
+2024-01-24 21:59:14.356 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 1.1487 ms
+2024-01-24 21:59:20.001 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 0.6090 ms
+2024-01-24 21:59:20.007 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 0.8953 ms
+2024-01-24 21:59:31.395 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 1.6198 ms
+2024-01-24 21:59:31.407 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 1.6336 ms
+2024-01-24 21:59:36.386 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 0.4240 ms
+2024-01-24 21:59:36.393 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 2.9747 ms
+2024-01-24 22:00:21.810 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 7.3379 ms
+2024-01-24 22:00:21.931 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 25.6048 ms
+2024-01-24 22:01:26.124 +01:00 [INF] HTTP OPTIONS /WeatherForecast responded 204 in 0.6568 ms
+2024-01-24 22:01:26.131 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 1.9508 ms
+2024-01-24 22:03:29.979 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 10.1191 ms
+2024-01-24 22:03:42.323 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 1.3941 ms
+2024-01-24 22:04:03.095 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 2.2484 ms
+2024-01-24 22:04:11.754 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 1.1871 ms
+2024-01-24 22:05:39.670 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-24 22:05:39.683 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-24 22:05:39.683 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 22:05:39.683 +01:00 [INF] Hosting environment: Development
+2024-01-24 22:05:39.683 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-24 22:05:53.943 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 9.2417 ms
+2024-01-24 22:06:12.217 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 2.5688 ms
+2024-01-24 22:07:04.342 +01:00 [INF] HTTP GET /WeatherForecast responded 400 in 4.5999 ms
+2024-01-24 22:07:09.448 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 37.9197 ms

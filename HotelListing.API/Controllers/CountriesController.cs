@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using AutoMapper;
 using HotelListing.API.Contracts;
 using HotelListing.API.Data;
+using HotelListing.API.Exceptions;
+using HotelListing.API.Models;
 using HotelListing.API.Models.Country;
 using HotelListing.API.Repository;
 using Microsoft.AspNetCore.Authorization;
@@ -29,13 +31,22 @@ namespace HotelListing.API.Controllers
         }
 
         // GET: api/Countries
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<ActionResult<IEnumerable<GetCountryDto>>> GetCountries()
         {
             var countries = await _countriesRepository.GetAllAsync();
             var records = _mapper.Map<List<GetCountryDto>>(countries);
 
             return Ok(records);
+        }
+
+        // GET: api/Countries/?StartIndex=0&PageSize=5&PageNumber=1
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<GetCountryDto>>> GetCountries([FromQuery]  QueryParameters queryParameters)
+        {
+            var pagedCountriesResult = await _countriesRepository.GetAllAsync<GetCountryDto>(queryParameters);
+
+            return Ok(pagedCountriesResult);
         }
 
         // GET api/Countries/5
@@ -46,7 +57,7 @@ namespace HotelListing.API.Controllers
             
             if (country == null)
             {
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountries), id);
             }
 
             var record = _mapper.Map<CountryDto>(country);
@@ -87,7 +98,7 @@ namespace HotelListing.API.Controllers
 
             if (country == null)
             {
-                return NotFound();
+                throw new NotFoundException(nameof(PutCountry), id);
             }
 
             _mapper.Map(updateCountryDto, country);

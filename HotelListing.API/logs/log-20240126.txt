@@ -1,0 +1,42 @@
+2024-01-26 12:31:36.459 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-26 12:31:36.476 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-26 12:31:36.477 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 12:31:36.477 +01:00 [INF] Hosting environment: Development
+2024-01-26 12:31:36.477 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-26 12:31:40.297 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-26 12:32:43.127 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-26 12:32:43.141 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-26 12:32:43.142 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 12:32:43.142 +01:00 [INF] Hosting environment: Development
+2024-01-26 12:32:43.142 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-26 12:33:18.120 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 12:33:18.121 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 12:33:18.145 +01:00 [INF] HTTP GET /api/Countries responded 200 in 646.4901 ms
+2024-01-26 12:33:33.791 +01:00 [INF] HTTP GET /api/Countries responded 200 in 59.4605 ms
+2024-01-26 12:33:42.075 +01:00 [INF] HTTP GET /api/Countries responded 200 in 1.9917 ms
+2024-01-26 12:33:52.855 +01:00 [INF] HTTP GET /api/Countries responded 200 in 27.9573 ms
+2024-01-26 12:34:01.179 +01:00 [INF] HTTP GET /api/Countries responded 200 in 1.5348 ms
+2024-01-26 12:34:08.315 +01:00 [INF] HTTP GET /api/Countries responded 200 in 14.1895 ms
+2024-01-26 12:34:33.403 +01:00 [INF] HTTP GET /api/Countries responded 200 in 13.9751 ms
+2024-01-26 12:34:50.713 +01:00 [INF] HTTP GET /api/Countries responded 200 in 42.1052 ms
+2024-01-26 12:46:10.606 +01:00 [INF] Now listening on: https://localhost:7021
+2024-01-26 12:46:10.621 +01:00 [INF] Now listening on: http://localhost:5260
+2024-01-26 12:46:10.622 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 12:46:10.622 +01:00 [INF] Hosting environment: Development
+2024-01-26 12:46:10.622 +01:00 [INF] Content root path: /Users/hassanyahya/Projects/HotelListing.API/HotelListing.API
+2024-01-26 12:47:02.646 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 12:47:02.648 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 12:47:02.677 +01:00 [INF] HTTP GET /api/hotels responded 200 in 651.7792 ms
+2024-01-26 12:47:14.465 +01:00 [INF] HTTP GET /api/hotels responded 200 in 50.7750 ms
+2024-01-26 12:47:30.116 +01:00 [INF] HTTP GET /api/hotels responded 200 in 27.9676 ms
+2024-01-26 12:47:38.430 +01:00 [INF] HTTP GET /api/hotels responded 200 in 28.4822 ms
+2024-01-26 12:59:46.139 +01:00 [INF] HTTP GET /api/hotels responded 200 in 116.0265 ms
+2024-01-26 12:59:52.603 +01:00 [INF] HTTP GET /api/hotels responded 200 in 22.5346 ms
